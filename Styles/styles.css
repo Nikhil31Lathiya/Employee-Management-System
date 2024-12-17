@@ -1,0 +1,119 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    header h1 {
+        color: #007BFF;
+    }
+
+nav {
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center; 
+    }
+
+        nav ul li {
+            display: inline-block; 
+            margin: 0 10px; 
+        }
+
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                padding: 10px 10px; 
+                border-radius: 3px;
+                transition: background-color 0.3s;
+            }
+
+                nav ul li a:hover {
+                    background-color: #0056b3; 
+                }
+
+main {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+    main h2 {
+        color: #333;
+    }
+
+    main div {
+        margin-bottom: 15px;
+    }
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+.grid-view {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .grid-view th, .grid-view td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .grid-view th {
+        background-color: #007BFF;
+        color: white;
+    }
+
+    .grid-view tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .grid-view tr:hover {
+        background-color: #ddd;
+    }
